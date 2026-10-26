@@ -2,8 +2,10 @@
 
 ## Datentypen
 
+bool - True/False
 int - Integer, Ganzzahl
 str - String, Zeichenkette
+float - Fließkommazahlen
 
 ## Kontrollstrukturen
 
