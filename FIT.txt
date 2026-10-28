@@ -1,0 +1,48 @@
+Grundbegriffe der IT
+--------------------
+- CPU, Core, GPU, RAM (SRAM, DRAM), ALU, PSU, HDD/SSD, Transistoren, Kondensator
+- USB, PCI, HDMI, VGA, Thunderbolt
+- Binär (0-1), Octal (0-7), Dezimal (0-9), Hexadezimal (0-9, A-F)
+- 8 Bit Byte, 16 Bit Short/Word, 32 Bit Integer/Doubleword, 64 Bit Long/Quadword 
+- Architekturen (Intel/AMD, CISC/RISC, ARM, von Neuman/Harvard, Big/Little Endian)
+- Turing Machine
+- Kapazitäten, metrische/IT Größen
+	Kilo, Mega, Giga, Tera,  Peta,  Exa,   Zetta, Yotta
+	10^3, 10^6, 10^9, 10^12, 10^15, 10^18, 10^21, 10^24
+	2^10, 2^20, 2^30,  2^40,  2^50,  2^60,  2^70,  2^80
+	Marketing bei Festplatten: 1 TB Platte = 10^12 Bytes
+	Anzeige der Kapazität beim Betriebssystem = 909 GiBi	
+- Logikgatter, boolesche Algebra
+	Logische Operatoren: UND (and &), ODER (or |), NICHT (not !)
+	(datensatz > 0 UND datensatz < 10)
+	UND (Konjunktion) Aussage ist wahr, wenn alle Terme wahr sind
+	ODER (Disjunktion) Aussage ist falsch, wenn alle Terme falsch sind
+	NICHT (Negation) Gegenteil der Aussage
+	Präzedenz: NICHT, ODER, UND
+- CRC, Hashing, Prüfsummen, Blockchain, Crypto Currency
+	Cyclic Redundancy Check (Prüfsumme)
+	Passwörter speichern
+- Codieren / Decodieren (Decoder, Codec)
+	Vereinbarung (Code), ASCII -> ISO Latin -> Unicode (16, 32 Bit) -> UTF-8
+	Wahr/Falsch -> wahr jeder Wert ungleich 0, falsch ist 0
+	Negative Zahlen -> Zweierkomplement, z.B. -128 (10000000)_2 ... +127 (01111111)_2
+	Fließkommazahlen -> Exponentialdarstellung zur Basis 2
+		1, wird immer angenommen (Normaldarstellung)
+		Einfache Genauigkeit (float): 1 Bit Vorzeichen, 8 Bit Exponent, 23 Bit Mantisse
+		Doppelte Genauigkeit (double): 1 Bit Vorzeichen, 11 Bit Exponent, 52 Bit Mantisse
+		ACHTUNG: Binärdarstellung kann zu Zahlenverlust führen
+		z.B. (0,1)_10 -> (0,0011001100110011...)_2
+- Verschlüsseln / Entschlüsseln
+	Symmetrisches Verfahren: Klartext --Schlüssel--> Geheimtext --Schlüssel--> Klartext (AES, Blowfish, ...)
+	Asymmetrischen Verfahren: Klartext --öffentl.Schlüssel--> Geheimtext --geheim.Schlüssel--> Klartext (RSA)
+	hybride Verfahren: Schüsselaustausch per asym. Verfahren, Nachrichten dann per symm.Verfahren
+- Neuronale Netze, LLM
+- PowerApps, Anwendungen
+- Vektoren, Matrizen, Tensoren
+- Quantum Computing
+- Client/Server, Routing
+
+- Programmieren / Codieren / Implementieren
+- Python, C/C++, 
+	=> Python + Visual Studio Code installieren
+
