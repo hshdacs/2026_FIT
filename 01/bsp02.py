@@ -28,4 +28,4 @@ ax.set_title(r'Histogram of IQ: $\mu=100$, $\sigma=15$')
 fig.tight_layout()
 plt.show()
 
-print("Mittelwert = {}\nVarianz = {}".format(np.mean(x), np.var(x)))
+print("Mittelwert = {}\nVarianz = {}\n".format(np.mean(x), np.var(x)))
