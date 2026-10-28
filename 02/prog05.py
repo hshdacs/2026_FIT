@@ -41,8 +41,23 @@ n = 100
 lange_liste = [7]*n
 print(lange_liste, len(lange_liste))
 
+# List Comprehensions
+
 quadrat_zahlen = [ k**2 for k in ganze_zahlen ]
 print(quadrat_zahlen)
 
 differenz_liste = [ a - b for a,b in zip(quadrat_zahlen, ganze_zahlen) ]
 print(differenz_liste)
+
+# Allgemeine Syntax: ... for ... in ... [if ...]
+
+A = [1, 2, 3, 4]
+print("A:", A)
+print( [k for k in A] )
+print( [k+5 for k in A if k > 1] )
+print( [(k,l) for k in A for l in A] )
+
+# Tupel (ähnlich einer Liste, aber nicht mehr veränderbar)
+t = ("hallo", 7)
+print(t, type(t))
+
