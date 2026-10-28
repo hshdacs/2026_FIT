@@ -17,6 +17,7 @@ In Python gibt es nur kopf-gesteuerte (abweisende) Schleifen
 
 ### Hausaufgabe
 
+1)
 Programm schreiben, dass einen Weihnachtsbaum zeichnet mit *
 
        *
@@ -25,5 +26,9 @@ Programm schreiben, dass einen Weihnachtsbaum zeichnet mit *
     *******
        *
        *
-       
+Erweiterungen für Profies: Eingabe der Größe: z.B. 6
+
+2) Funktion schreiben, zur Überprüfung einer Zahl auf Primzahl
+
+
 ## Algorithmen
