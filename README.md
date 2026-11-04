@@ -32,3 +32,6 @@ Erweiterungen für Profies: Eingabe der Größe: z.B. 6
 
 
 ## Pakete
+- Numpy
+- Matplotlib
+- Pandas
