@@ -31,4 +31,4 @@ Erweiterungen für Profies: Eingabe der Größe: z.B. 6
 2) Funktion schreiben, zur Überprüfung einer Zahl auf Primzahl
 
 
-## Algorithmen
+## Pakete
